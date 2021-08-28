@@ -27,7 +27,7 @@ namespace AddressBook
         // method to receive contact by email
         public Contact GetEmail(string email)
         {
-            
+            return Phonebook[email]
         }
     }
 }
